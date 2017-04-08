@@ -1,0 +1,16 @@
+{
+  "name": "TaskMicroservice",
+  "version": "0.0.1",
+  "description": "A Lambda for CRUD operation for tasks in the Git2It Ionic Mobile",
+  "main": "handler.js",
+  "author": "reza mt",
+  "license": "MIT",
+  "scripts": {
+    "zip": "zip -r TaskMicroservice.zip package.json *.js node_modules"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "node-uuid": "^1.4.8",
+    "underscore": "^1.8.3"
+  }
+}
